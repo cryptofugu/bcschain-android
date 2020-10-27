@@ -34,7 +34,7 @@
                 android:paddingTop="10dp"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-            <org.qtum.wallet.utils.FontTextView
+            <org.bcschain.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_watch"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -104,12 +104,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentBottom="true"
-            android:layout_below="@+id/et_abi_interface"
             android:gravity="bottom"
             android:orientation="horizontal"
             android:weightSum="2">
 
-            <org.qtum.wallet.utils.FontButton
+            <org.bcschain.wallet.utils.FontButton
                 android:id="@+id/bt_cancel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -123,7 +122,7 @@
                 android:textSize="16sp"
                 app:typeface="@string/simplonMonoRegular" />
 
-            <org.qtum.wallet.utils.FontButton
+            <org.bcschain.wallet.utils.FontButton
                 android:id="@+id/bt_ok"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
